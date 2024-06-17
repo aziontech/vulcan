@@ -13,8 +13,8 @@ E2E tests run daily in the [Vulcan Examples](https://github.com/aziontech/vulcan
 Table:
 | Test                                 | Status |
 | ------------------------------------ | ------ |
-| Next 13 5 6 I18n                     | ✅      |
 | Next 12 3 4 I18n                     | ✅      |
+| Next 13 5 6 I18n                     | ✅      |
 | Hexo Static                          | ✅      |
 | Next 13 5 6 Middleware               | ✅      |
 | Next 12 3 4 Middleware               | ✅      |
@@ -22,9 +22,9 @@ Table:
 | Next 13 5 6 Config                   | ✅      |
 | Next 12 3 4 Config                   | ✅      |
 | Next Static                          | ✅      |
-| Gatsby Static                        | ✅      |
+| Gatsby Static                        | ⚠️     |
 | Next Node Pages 12 3 1 Fs            | ✅      |
-| Vue Vite Static                      | ✅      |
+| Vue Vite Static                      | ⚠️     |
 | Next 12 Static                       | ✅      |
 | Simple Js Env Vars                   | ✅      |
 | Astro Static                         | ✅      |
@@ -40,7 +40,7 @@ Table:
 | Simple Js Esm                        | ✅      |
 | Simple Ts Esm                        | ✅      |
 
-Last test run date: 05/10/24 02:55:23 AM
+Last test run date: 05/29/24 04:38:01 PM
 ## Quick Installation
 
 For those who just want to use Vulcan in their project without contributing to the development, you can install it directly from npm.

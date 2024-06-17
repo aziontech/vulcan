@@ -38,7 +38,7 @@ Each preset is composed of three main files; `config.js`, `prebuild.js` and `han
     - ErrorHTML: This edgehook provides a return of an HTML template showing the error and the description passed as a parameter. You can pass the captured error as the third parameter, and it will be displayed on the screen (it's a good way to debug).
 
 4.  `postbuild.js`: this file is optional. Here you can run actions after the common build done by bundlers.
-5.   `azion.config.js`: It is used to deploy and create middleware rules on the Azion platform. Mandatory for use on Azion.
+5.  `azion.config.js`: It is used to deploy and create middleware rules on the Azion platform. Mandatory for use on Azion.
 
 # How to add a new preset
 
@@ -85,34 +85,31 @@ This file serves as an extension to the edge build. It enables the inclusion of 
 
 In this file, you should adapt the native build process of your framework or library. Usually, in the case of _deliver_ presets, this file will be used to ensure that the generated static artifacts are placed in the _.edge/storage/_ directory.
 
- #### Gatsby (deliver) example:
+#### Gatsby (deliver) example:
+
 ![prebuild](https://github.com/aziontech/vulcan/assets/12740219/d41526b5-768b-4daf-bd75-65865a3f21e0)
 
 ## postbuild.js
 
 In this file you can include code to run exactly after the Forging phase (build bundlers with edge settings), that is, this is the last (optional) step of the build.
 
- #### Next (compute) example:
-![postbuild](https://github.com/aziontech/vulcan/assets/12740219/9ae67e6d-3948-423f-9563-f49f456a8e3f)
+#### Next (compute) example:
 
+![postbuild](https://github.com/aziontech/vulcan/assets/12740219/9ae67e6d-3948-423f-9563-f49f456a8e3f)
 
 ## azion.config.js
 
 Here you can configure the rules for how the application should behave at the edge (Rules Engine of an Edge Application). You create rules to perform rewrites, define origins, apply caching, and other needs. During the Build process, Vulcan will copy this file to the corresponding project and use it as a source of truth to generate the manifests. This enables the user to create customizations in the project based on the preset rules.
 
- #### Gatsby (deliver) config:
-![azion-config](https://github.com/aziontech/vulcan/assets/12740219/cb511940-08d9-420e-9d89-072db86a3f25)
+#### Gatsby (deliver) config:
 
+![azion-config](https://github.com/aziontech/vulcan/assets/12740219/cb511940-08d9-420e-9d89-072db86a3f25)
 
 ## 3. **Test your preset:**
 
 After setting up your preset, you can test it using Vulcan's build command. Depending on the mode of your preset, run one of the following commands in your terminal:
 
-
-
 https://github.com/aziontech/vulcan/assets/12740219/1e0ad2bf-8fcd-49f7-9242-b1dc0e439742
-
-
 
 For `compute` mode:
 
