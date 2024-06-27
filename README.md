@@ -35,12 +35,13 @@ Table:
 | Svelte Static                        | ✅      |
 | Simple Js Firewall Event             | ✅      |
 | Simple Js Network List With Firewall | ✅      |
+| Jekyll Static                        | ✅      |
 | Simple Js Esm UseOwnWorker           | ✅      |
 | Simple Js Esm Node                   | ✅      |
 | Simple Js Esm                        | ✅      |
 | Simple Ts Esm                        | ✅      |
 
-Last test run date: 05/29/24 04:38:01 PM
+Last test run date: 06/24/24 03:23:39 AM
 ## Quick Installation
 
 For those who just want to use Vulcan in their project without contributing to the development, you can install it directly from npm.

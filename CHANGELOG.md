@@ -1,3 +1,111 @@
+### [2.9.2](https://github.com/aziontech/vulcan/compare/v2.9.1...v2.9.2) (2024-06-24)
+
+
+### Bug Fixes
+
+* simplify rewrite rule ([#346](https://github.com/aziontech/vulcan/issues/346)) ([4e5756b](https://github.com/aziontech/vulcan/commit/4e5756bd633c9191363c561c5e47e6f2c346ba90))
+
+### [2.9.2-stage.1](https://github.com/aziontech/vulcan/compare/v2.9.1...v2.9.2-stage.1) (2024-06-24)
+
+
+### Bug Fixes
+
+* simplify rewrite rule ([#346](https://github.com/aziontech/vulcan/issues/346)) ([4e5756b](https://github.com/aziontech/vulcan/commit/4e5756bd633c9191363c561c5e47e6f2c346ba90))
+
+### [2.9.1](https://github.com/aziontech/vulcan/compare/v2.9.0...v2.9.1) (2024-06-21)
+
+
+### Bug Fixes
+
+* 'rewrite' property variable  ([#344](https://github.com/aziontech/vulcan/issues/344)) ([04f7664](https://github.com/aziontech/vulcan/commit/04f7664eba9c29fef0cc90cf8e4b35f7554a5f8d))
+* rewrite variable ([bfdc066](https://github.com/aziontech/vulcan/commit/bfdc066fe75026755cc4c8150482e105b4a87750))
+
+### [2.9.1-stage.1](https://github.com/aziontech/vulcan/compare/v2.9.0...v2.9.1-stage.1) (2024-06-21)
+
+
+### Bug Fixes
+
+* 'rewrite' property variable  ([#344](https://github.com/aziontech/vulcan/issues/344)) ([04f7664](https://github.com/aziontech/vulcan/commit/04f7664eba9c29fef0cc90cf8e4b35f7554a5f8d))
+* rewrite variable ([bfdc066](https://github.com/aziontech/vulcan/commit/bfdc066fe75026755cc4c8150482e105b4a87750))
+
+## [2.9.0](https://github.com/aziontech/vulcan/compare/v2.8.1...v2.9.0) (2024-06-20)
+
+
+### Features
+
+* add capture_match_groups rule ([e5a9238](https://github.com/aziontech/vulcan/commit/e5a9238215759c536a43da519542f9bf5184694c))
+* add optional 'variable' field (azion.config) ([71e7184](https://github.com/aziontech/vulcan/commit/71e7184e052c239cb3d6116dc76216d56a3d64d2))
+* behavior order, description prop and active prop (azion.config.js) ([#341](https://github.com/aziontech/vulcan/issues/341)) ([9ace596](https://github.com/aziontech/vulcan/commit/9ace5961f7bbfe66419ab0754c5975aaf63ace76))
+* expand azion.config.js field support ([#340](https://github.com/aziontech/vulcan/issues/340)) ([266f257](https://github.com/aziontech/vulcan/commit/266f25743417ca57fdfbfd1667cceb0906d1cb95))
+* flag to build manifest only and skip other steps ([08201ce](https://github.com/aziontech/vulcan/commit/08201ceb81420a75f4d26f57b5d0555f886bc963))
+* request phase gzip field ([ac84e82](https://github.com/aziontech/vulcan/commit/ac84e82e93b33963c17d7f64e75ed49eed285eb2))
+* request phase redirects + bypass cache ([f49d8f5](https://github.com/aziontech/vulcan/commit/f49d8f59168c829990de4f08573bd154ecde2079))
+* support response phase in manifest ([5ee8717](https://github.com/aziontech/vulcan/commit/5ee8717804ac0004ea3c87c324956e589d5bbc92))
+
+
+### Bug Fixes
+
+* request or response are required ([8c8ca7e](https://github.com/aziontech/vulcan/commit/8c8ca7e06ef391a2cfee2998ce54a38ea245d906))
+* response phase criteria ([c85ef9f](https://github.com/aziontech/vulcan/commit/c85ef9f4ed9968e03a8668dcb11af2b34578b805))
+
+## [2.9.0-stage.2](https://github.com/aziontech/vulcan/compare/v2.9.0-stage.1...v2.9.0-stage.2) (2024-06-19)
+
+
+### Features
+
+* behavior order, description prop and active prop (azion.config.js) ([#341](https://github.com/aziontech/vulcan/issues/341)) ([9ace596](https://github.com/aziontech/vulcan/commit/9ace5961f7bbfe66419ab0754c5975aaf63ace76))
+
+## [2.9.0-stage.1](https://github.com/aziontech/vulcan/compare/v2.8.1...v2.9.0-stage.1) (2024-06-13)
+
+
+### Features
+
+* add capture_match_groups rule ([e5a9238](https://github.com/aziontech/vulcan/commit/e5a9238215759c536a43da519542f9bf5184694c))
+* add optional 'variable' field (azion.config) ([71e7184](https://github.com/aziontech/vulcan/commit/71e7184e052c239cb3d6116dc76216d56a3d64d2))
+* expand azion.config.js field support ([#340](https://github.com/aziontech/vulcan/issues/340)) ([266f257](https://github.com/aziontech/vulcan/commit/266f25743417ca57fdfbfd1667cceb0906d1cb95))
+* flag to build manifest only and skip other steps ([08201ce](https://github.com/aziontech/vulcan/commit/08201ceb81420a75f4d26f57b5d0555f886bc963))
+* request phase gzip field ([ac84e82](https://github.com/aziontech/vulcan/commit/ac84e82e93b33963c17d7f64e75ed49eed285eb2))
+* request phase redirects + bypass cache ([f49d8f5](https://github.com/aziontech/vulcan/commit/f49d8f59168c829990de4f08573bd154ecde2079))
+* support response phase in manifest ([5ee8717](https://github.com/aziontech/vulcan/commit/5ee8717804ac0004ea3c87c324956e589d5bbc92))
+
+
+### Bug Fixes
+
+* request or response are required ([8c8ca7e](https://github.com/aziontech/vulcan/commit/8c8ca7e06ef391a2cfee2998ce54a38ea245d906))
+* response phase criteria ([c85ef9f](https://github.com/aziontech/vulcan/commit/c85ef9f4ed9968e03a8668dcb11af2b34578b805))
+
+### [2.8.1](https://github.com/aziontech/vulcan/compare/v2.8.0...v2.8.1) (2024-06-07)
+
+
+### Bug Fixes
+
+* azion rules for SSG presets ([bef0d75](https://github.com/aziontech/vulcan/commit/bef0d758710581b29546e2fc2e4caf40d1b1b6a3))
+* azion rules for SSG presets ([#338](https://github.com/aziontech/vulcan/issues/338)) ([53eeee1](https://github.com/aziontech/vulcan/commit/53eeee12f1e8030b38aa5b0444afeb65d1ff79e7))
+
+### [2.8.1-stage.1](https://github.com/aziontech/vulcan/compare/v2.8.0...v2.8.1-stage.1) (2024-06-07)
+
+
+### Bug Fixes
+
+* azion rules for SSG presets ([bef0d75](https://github.com/aziontech/vulcan/commit/bef0d758710581b29546e2fc2e4caf40d1b1b6a3))
+* azion rules for SSG presets ([#338](https://github.com/aziontech/vulcan/issues/338)) ([53eeee1](https://github.com/aziontech/vulcan/commit/53eeee12f1e8030b38aa5b0444afeb65d1ff79e7))
+
+## [2.8.0](https://github.com/aziontech/vulcan/compare/v2.7.3...v2.8.0) (2024-06-05)
+
+
+### Features
+
+* jekyll (preset)  ([#329](https://github.com/aziontech/vulcan/issues/329)) ([dde36dc](https://github.com/aziontech/vulcan/commit/dde36dc0bec3fddc5492e96dee05f3a61c9d56ce))
+
+
+### Bug Fixes
+
+* react with vite ([d1eb167](https://github.com/aziontech/vulcan/commit/d1eb1676df781eca28271da29a0fbdfe1e4676a3))
+* react/vue with vite (preset) ([#325](https://github.com/aziontech/vulcan/issues/325)) ([976bb2e](https://github.com/aziontech/vulcan/commit/976bb2e23a8ccd5ffce5ffb85fb7ea812f4be5d6))
+* recover overwritten commits ([#327](https://github.com/aziontech/vulcan/issues/327)) ([47350a4](https://github.com/aziontech/vulcan/commit/47350a4689ee06b891c9d4bf05a28735bae0053d))
+* rewrite rule for spas ([#335](https://github.com/aziontech/vulcan/issues/335)) ([2a05d29](https://github.com/aziontech/vulcan/commit/2a05d297c53a76466acd87284ee9fe9b8831d30c))
+* vite/vue with ts ([5446750](https://github.com/aziontech/vulcan/commit/54467505644c34f60330e14074786ddda6169fea))
+
 ### [2.7.4-stage.1](https://github.com/aziontech/vulcan/compare/v2.7.3...v2.7.4-stage.1) (2024-05-20)
 
 
