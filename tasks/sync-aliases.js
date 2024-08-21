@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { feedback } from '#utils';
-import myAliases from '../aliases.js';
+import myAliases from '../aliases';
 
 const convertAliasFormat = (aliases) => {
   const convertedAliases = {};

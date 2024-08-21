@@ -1,8 +1,8 @@
 import { test } from '@jest/globals';
 import supertest from 'supertest';
-import projectInitializer from '../utils/project-initializer.js';
-import projectStop from '../utils/project-stop.js';
-import { getContainerPort } from '../utils/docker-env-actions.js';
+import projectInitializer from '../utils/project-initializer';
+import projectStop from '../utils/project-stop';
+import { getContainerPort } from '../utils/docker-env-actions';
 
 // timeout in minutes
 const TIMEOUT = 1 * 60 * 3000;

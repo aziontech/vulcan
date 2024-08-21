@@ -2,7 +2,7 @@ import { feedback } from '#utils';
 import {
   waitForVulcanServer,
   execCommandInContainer,
-} from './docker-env-actions.js';
+} from './docker-env-actions';
 
 /**
  * Run actions to build and run project in docker container

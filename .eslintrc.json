@@ -32,7 +32,6 @@
           ["#env", "./lib/env/index.js"],
           ["#platform", "./lib/platform/index.js"],
           ["#constants", "./lib/constants/index.js"],
-          ["#edge", "./lib/env/edgehooks/index.js"],
           ["#commands", "./lib/commands/index.js"]
         ],
         "extensions": [".js", ".json"]
@@ -40,7 +39,14 @@
     }
   },
   "rules": {
-    "import/extensions": ["error", "always"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "json": "always"
+      }
+    ],
     "no-console": "off",
     "no-plusplus": "off",
     "prettier/prettier": "error",

@@ -1,5 +1,5 @@
 import { feedback } from '#utils';
-import { execCommandInContainer } from './docker-env-actions.js';
+import { execCommandInContainer } from './docker-env-actions';
 
 /**
  * Stop vulcan server in test container
